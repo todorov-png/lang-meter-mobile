@@ -1,0 +1,273 @@
+{
+  "AUTH": {
+    "LOGIN": "Login",
+    "REGISTRATION": "Registration",
+    "USERNAME": "Username",
+    "EMAIL": "Email",
+    "PASSWORD": "Password",
+    "REPEAT_PASSWORD": "Repeat Password",
+    "BUTTONS": {
+      "SING_IN": "Sign In",
+      "REGISTRATION": "Registration",
+      "SING_UP": "Sign up",
+      "LOGIN": "Login"
+    }
+  },
+
+  "HEADER": {
+    "TITLE": {
+      "HOME": "Home",
+      "PROFILE": "Profile",
+      "USERS": "Users",
+      "TEAMS": "Teams",
+      "ROLES": "Roles",
+      "TEST": "Test",
+      "HISTORY": "History"
+    },
+    "MENU": {
+      "HOME": "Home",
+      "PROFILE": "Profile",
+      "USERS": "Users",
+      "TEAMS": "Teams",
+      "ROLES": "Roles",
+      "LOG_OUT": "Log Out"
+    }
+  },
+
+  "PAGE_NOT_FOUND": {
+    "TITLE": "Oops!",
+    "SUBTITLE": "404 - Page not found",
+    "BUTTON": "Go To Homepage"
+  },
+
+  "NOT_ACTIVATED": {
+    "TITLE": "Your account has not been activated!",
+    "SUBTITLE": "Check your email.",
+    "CONTENT": "If you didn't receive your email, please click the button below to resend.",
+    "BUTTON": "Submit a new activation code",
+    "TOAST_SEND_CODE": {
+      "SUMMARY": "Check your email",
+      "DETAIL": "New activation code sent successfully"
+    },
+    "CONFIRM": "Are you sure you want to send a new activation code?"
+  },
+
+  "NOT_TEAM": {
+    "TITLE": "No team is assigned to you!",
+    "CONTENT": "To join a team, write to the administrator your team name and current username. After joining, you will have access to materials for active products",
+    "BUTTON": "Contact administrator"
+  },
+
+  "ROLES": {
+    "TABLE": {
+      "TITLE": "Roles",
+      "EMPTY": "Roles not found.",
+      "LOADING": "Loading role data. Please wait.",
+      "SEARCH": "Search"
+    },
+    "PERMISSIONS": {
+      "NAME": "Name",
+      "CREATE_TEAM": "Create team",
+      "ASSIGN_TEAM": "Assign team",
+      "DELETE_TEAM": "Delete team",
+      "CREATE_ROLE": "Create role",
+      "ASSIGN_ROLE": "Assign role",
+      "DELETE_ROLE": "Delete role",
+      "CREATE_USER": "Create user",
+      "DELETE_USER": "Delete user",
+      "ASSIGN_TEST": "Assign test"
+    },
+    "CREATE_ROLE": {
+      "HEADER": "Create role",
+      "NAME": "Name",
+      "EMPTY_NAME": "Name is required.",
+      "PERMISSIONS": "Permissions",
+      "SUCCESSFUL": "Role created successfully"
+    },
+    "CHANGE_ROLE": {
+      "HEADER": "Change role",
+      "NAME": "Name",
+      "EMPTY_NAME": "Name is required.",
+      "PERMISSIONS": "Permissions",
+      "SUCCESSFUL": "Role updated successfully"
+    },
+    "DELETE_ROLE": {
+      "HEADER": "Confirm",
+      "ROLE": "Are you sure you want to delete the role '{{name}}'?",
+      "ROLES": "Are you sure you want to delete the selected roles?",
+      "ONE": "Role removed",
+      "MANU": "Roles removed"
+    }
+  },
+
+  "TEAMS": {
+    "TABLE": {
+      "TITLE": "Teams",
+      "EMPTY": "Teams not found.",
+      "LOADING": "Loading team data. Please wait.",
+      "SEARCH": "Search"
+    },
+    "COLUMN": {
+      "NAME": "Name",
+      "MEMBERS": "Members",
+      "LINK_IG": "Link telegram"
+    },
+    "CREATE_TEAM": {
+      "HEADER": "Create team",
+      "NAME": "Name",
+      "EMPTY_NAME": "Name is required.",
+      "LINK_TG": "Link telegram",
+      "SUCCESSFUL": "Team created successfully",
+      "TEST": {
+        "LABEL": "Tests",
+        "DROPDOWN": "Select Tests"
+      }
+    },
+    "CHANGE_TEAM": {
+      "HEADER": "Change team",
+      "NAME": "Name",
+      "EMPTY_NAME": "Name is required.",
+      "LINK_TG": "Link telegram",
+      "SUCCESSFUL": "Team change successfully",
+      "TEST": {
+        "LABEL": "Tests",
+        "DROPDOWN": "Select Tests"
+      }
+    },
+    "DELETE_TEAM": {
+      "HEADER": "Confirm",
+      "TEAM": "Are you sure you want to delete the team '{{name}}'?",
+      "SUCCESSFUL": "Team delete successfully"
+    }
+  },
+
+  "USERS": {
+    "TABLE": {
+      "TITLE": "Users",
+      "EMPTY": "Users not found.",
+      "LOADING": "Loading users list. Please wait.",
+      "SEARCH": "Search"
+    },
+    "COLUMN": {
+      "USERNAME": "Username",
+      "EMAIL": "Email",
+      "ROLE": "Role",
+      "TEAM": "Team",
+      "VIEW": "View",
+      "DATE_REGISTRATION": "Date of registration",
+      "DATE_ACTIVATION": "Activation date"
+    },
+    "CREATE_USER": {
+      "HEADER": "Create user",
+      "USERNAME": "Username",
+      "EMPTY_USERNAME": "Username is required.",
+      "EMAIL": "Email",
+      "EMPTY_EMAIL": "Email is required.",
+      "PASSWORD": "Password",
+      "EMPTY_PASSWORD": "Password is required.",
+      "ROLE": {
+        "LABEL": "Role",
+        "DROPDOWN": "Select a role"
+      },
+      "TEAM": {
+        "LABEL": "Team",
+        "DROPDOWN": "Select a team"
+      },
+      "SUCCESSFUL": "User create successfully"
+    },
+    "CHANGE_USER": {
+      "HEADER": "User change",
+      "USERNAME": "Username",
+      "EMAIL": "Email",
+      "ROLE": {
+        "LABEL": "Role",
+        "DROPDOWN": "Select a role"
+      },
+      "TEAM": {
+        "LABEL": "Team",
+        "DROPDOWN": "Select a team"
+      },
+      "SUCCESSFUL": "User change successfully"
+    },
+    "DELETE_USER": {
+      "HEADER": "Confirm",
+      "USER": "Are you sure you want to delete the user '{{name}}'?",
+      "SUCCESSFUL": "User delete successfully"
+    }
+  },
+
+  "PROFILE": {
+    "THEME": {
+      "LIGHT": "Light",
+      "DARK": "Dark"
+    },
+    "FORM": {
+      "USERNAME": "Username",
+      "EMAIL": "Email",
+      "NEW_PASSWORD": "New password",
+      "CURRENT_PASSWORD": "Current password"
+    },
+    "BUTTONS": {
+      "SAVE": "Save",
+      "HOME": "Home"
+    },
+    "TOAST": {
+      "DETAIL": "Data updated successfully"
+    }
+  },
+
+  "TESTS": {
+    "TABLE": {
+      "TITLE": "Test list",
+      "LOADING": "Loading test data. Please wait.",
+      "EMPTY": "Test not found."
+    },
+    "COLUMN": {
+      "NAME": "Name"
+    },
+    "RESULT": "Result",
+    "RESULT_TEXT": "You gave {{count}} correct answers. Your level is {{level}}"
+  },
+
+  "HISTORY": {
+    "TABLE": {
+      "TITLE": "History",
+      "LOADING": "Loading history data. Please wait.",
+      "EMPTY": "History not found."
+    },
+    "COLUMN": {
+      "NAME": "Name",
+      "ATTEMPTS": "Attempts",
+      "GPA": "GPA",
+      "SCORE_MAX": "Highest score"
+    }
+  },
+
+  "TOAST": {
+    "SUMMARY": {
+      "ERROR": "Error",
+      "SUCCESSFUL": "Successful"
+    },
+    "DETAIL": {
+      "SERVER_ERROR": "Error, try again!"
+    }
+  },
+
+  "CONFIRM_MODAL": {
+    "BUTTONS": {
+      "NO": "No",
+      "YES": "Yes",
+      "CANCEL": "Cancel",
+      "CREATE": "Create",
+      "UPDATE": "Update"
+    }
+  },
+
+  "BASE": {
+    "LOADING": "Loading...",
+    "CHECK": "Check",
+    "BACK": "Back",
+    "HOME": "Home",
+    "SEARCH": "Search"
+  }
+}

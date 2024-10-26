@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "LevelOfEnglish",
+    "slug": "LevelOfEnglish",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/img/logo.jpg",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.zhenya.todorov.LevelOfEnglish"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.zhenya.todorov.LevelOfEnglish"
+    },
+    "web": {
+      "favicon": "./assets/img/logo.jpg"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "981997c5-1fe5-4224-8793-bc7a4c8fe710"
+      }
+    }
+  }
+}

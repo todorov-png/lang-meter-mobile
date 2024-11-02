@@ -7,6 +7,7 @@ import UsersScreen from './UsersScreen.jsx';
 import LoginScreen from './LoginScreen.jsx';
 import HistoryScreen from './HistoryScreen.jsx';
 import ProfileScreen from './ProfileScreen.jsx';
+import ChatGPTScreen from './ChatGPTScreen.jsx';
 import HeaderMenu from '../components/HeaderMenu.jsx';
 import RegistrationScreen from './RegistrationScreen.jsx';
 import { NavigationContainer, useNavigation, useFocusEffect } from '@react-navigation/native';
@@ -92,6 +93,11 @@ export const Navigation = () => {
                 name="Users"
                 component={UsersScreen}
                 options={{ title: t('HEADER.TITLE.USERS') }}
+              />
+              <Stack.Screen
+                name="ChatGPT"
+                component={ChatGPTScreen}
+                options={{ title: t('HEADER.TITLE.CHAT_GPT') }}
               />
             </>
           ) : (

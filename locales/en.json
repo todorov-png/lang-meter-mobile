@@ -22,7 +22,8 @@
       "TEAMS": "Teams",
       "ROLES": "Roles",
       "TEST": "Test",
-      "HISTORY": "History"
+      "HISTORY": "History",
+      "CHAT_GPT": "Chat GPT"
     },
     "MENU": {
       "HOME": "Home",
@@ -30,6 +31,7 @@
       "USERS": "Users",
       "TEAMS": "Teams",
       "ROLES": "Roles",
+      "CHAT_GPT": "Chat GPT",
       "LOG_OUT": "Log Out"
     }
   },
@@ -241,6 +243,12 @@
       "GPA": "GPA",
       "SCORE_MAX": "Highest score"
     }
+  },
+
+  "CHAT_GPT": {
+    "TITLE": "Chat gpt",
+    "MESSAGE": "Message",
+    "EMPTY": "Correspondence is empty"
   },
 
   "TOAST": {

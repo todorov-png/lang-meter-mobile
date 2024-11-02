@@ -35,6 +35,11 @@ const HeaderMenu = () => {
       screen: 'Profile',
     },
     {
+      label: t('HEADER.MENU.CHAT_GPT'),
+      icon: 'wechat',
+      screen: 'ChatGPT',
+    },
+    {
       permissions: ['assignRole', 'assignTeam', 'createUser', 'deleteUser'],
       label: t('HEADER.MENU.USERS'),
       icon: 'users',
@@ -95,7 +100,9 @@ const HeaderMenu = () => {
               }}
             >
               <View style={styles.menuItem}>
-                <FontAwesome name={item.icon} size={20} color={themeColors.color5} />
+                <View style={styles.menuItemIcon}>
+                  <FontAwesome name={item.icon} size={20} color={themeColors.color5} />
+                </View>
                 <Text style={[styles.menuText, { color: themeColors.color5 }]}>{item.label}</Text>
               </View>
             </MenuOption>
@@ -125,6 +132,12 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     padding: 10,
+  },
+  menuItemIcon: {
+    width: 24,
+    maxHeight: 20,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
   menuText: {
     paddingLeft: 10,

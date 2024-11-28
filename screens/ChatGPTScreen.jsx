@@ -81,7 +81,7 @@ const ChatGPTScreen = () => {
           icon={{ name: 'send', type: 'material', size: 22, color: themeColors.color4 }}
           onPress={sendMessage}
           loading={loading}
-          buttonStyle={styles.button(themeColors.color3)}
+          buttonStyle={styles.button(themeColors)}
         />
       </View>
     </View>
@@ -109,6 +109,7 @@ const styles = StyleSheet.create({
     borderWidth: 1,
     borderRadius: 8,
     padding: 8,
+    height: 42,
     borderColor: themeColors.color6,
     color: themeColors.color5,
     flex: 1,

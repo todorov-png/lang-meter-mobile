@@ -47,6 +47,7 @@ const styles = StyleSheet.create({
   input: (themeColors) => ({
     flex: 1,
     padding: 8,
+    height: 42,
     paddingRight: 0,
     color: themeColors.color5,
   }),

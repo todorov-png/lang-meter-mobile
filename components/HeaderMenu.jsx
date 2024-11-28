@@ -81,7 +81,7 @@ const HeaderMenu = () => {
         <Button
           icon={{ name: 'menu', size: 25, color: themeColors.color5 }}
           buttonStyle={styles.menuButton}
-          onPress={openMenu}
+          onPressIn={openMenu}
         />
       </MenuTrigger>
       <MenuOptions customStyles={{ optionsContainer: styles.menuOptionsContainer(themeColors) }}>

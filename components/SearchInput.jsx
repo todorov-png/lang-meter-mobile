@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     marginLeft: 8,
     paddingVertical: 8,
     flex: 1,
+    height: 42,
     color: themeColors.color5,
   }),
 });

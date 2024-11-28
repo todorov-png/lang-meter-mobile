@@ -14,12 +14,14 @@
     ],
     "ios": {
       "supportsTablet": true,
+      "newArchEnabled": true,
       "bundleIdentifier": "com.zhenya.todorov.LevelOfEnglish"
     },
     "android": {
       "adaptiveIcon": {
         "backgroundColor": "#ffffff"
       },
+      "newArchEnabled": true,
       "package": "com.zhenya.todorov.LevelOfEnglish"
     },
     "web": {
